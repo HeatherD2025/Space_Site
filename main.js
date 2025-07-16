@@ -65,8 +65,8 @@ scene.add(light);
 const myText = new Text();
 myText.text = 'Hello World!';
 myText.fontSize = 0.5;
-myText.color = 0xff66cc;
-myText.position.set(0, -1.5, 0);
+myText.color = 0x8ebfd0;
+myText.position.set(0.5, 3, 0);
 
 scene.add(myText);
 myText.sync(); // Required after setting properties
